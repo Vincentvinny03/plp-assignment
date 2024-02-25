@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/mountain1.jpeg);
+    
+}
+nav {
+    background-color: rgb(2, 99, 99);
+    color: #fff;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 0;
+    display: flex;
+     justify-content: space-between;}
+    
+ul li {
+    margin-bottom: 10px;
+}
+ul li:last-child {
+    margin-bottom: 0;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+/* ul li a:hover { */
+    /* background-color: orangered; */
+/* } */
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+}
+.h4{
+    font-size: 14px;
+    color: #ccc;
+    cursor: pointer;
+}
+.section-heading:hover{color: #b6b5b5;}
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;}
+
+.top-nav{
+        background-color: rgb(26, 25, 66);
+        padding-top: 15px;
+        padding-bottom: 15px;}
+
+.top-nav-display{
+               display: flex;
+              margin-left: 80px;
+             text-decoration: none;}
+
+.top-nav-content{
+                 color: #ffffff;
+                 font-size: 25px;}
+small {  margin-left: 10px;}
+
+
+.second-top-nav{
+               margin-left: 1000px;
+               text-decoration: none;
+              font-size: 22px;}
+
+.second-top-nav a{
+                  margin: 10px;
+                  color: #ffffff;
+                  text-decoration: none;}
+
+.navbar{display: flex;
+        margin-tp: 200px;}
+
+.menu{
+      font-size: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 50px;
+      margin-left: 200px;
+     display: flex;}
+
+
+.menu h5{
+        text-decoration: none;
+        margin: 20px;
+        color: rgb(7, 7, 31);
+        cursor: pointer}
+
+.dropp-page{ display: flex;
+             font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+        
+.dropdown h4{
+             margin-top: 65px;
+             margin-left: 20px;
+}
+
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+ }
+          
+.dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;}
+          
+.dropdown-content a:hover {background-color: orangered;
+                           }
+          
+.dropdown:hover .dropdown-content {
+             display: block;} 
+
+
+
+.Contact{
+        text-decoration: none;
+        color: black;
+        margin-top: 70px;
+      margin-left: 30px;}
+      
+
+
+.quote{ margin-left: 150px;
+      margin-top: 60px;
+    background-color: orangered;
+  padding-left: 20px; 
+  padding-right: 20px;
+text-decoration: none;
+ font-size: 30px;
+ color: #ffffff;
+  border-radius: 30px;}
+  
+.quote h5{
+         margin-top: 50px;
+         margin-bottom: 0px}
+
+
+.head{
+       background-image: url("blog image/Logistics1 airplane2.jpg");
+       height: 500px;
+       padding-top: 50px;
+        }
+ 
+
+
+.safe{
+    text-align: center;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+
+.Logistics{
+          color: orangered;
+          text-align: center;
+          font-size: 120px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .search{margin-left: 500px;
+    margin-top: 40px;
+ }
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 600px;
+  height: 5px;
+  background: transparent;
+  border: 1px solid #ff7200; 
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 28px;
+  float: left;
+  padding: 30px;}
+
+.btn{
+width: 150px;
+height: 63px;
+background: #ff7200;
+border: 2px solid #ff7200;
+ margin-top:12px;
+font-size: 20px;
+cursor: pointer;
+      color: #fff;
+       transition: 0.4s ease;}
+
+.btn:hover{
+           background-color: #474786;}
+
+
+.btn a{ text-decoration: none;
+        color: #fff;}
+
+.btn:focus{
+       outline: none;}
+
+.srch:focus{
+        outline: none;}
+
+
+.About{
+       margin-top: 100px;
+       margin-left: 250px;
+       text-align: center;
+}
+
+
+
+.align{ display: flex;}
+
+.twenty-five-img{
+                 margin-left: 0px;
+                 background-color: orangered;
+}
+
+.video h5{
+       margin-left: 50px;
+       margin-top: 20px;}
+
+
+
+.third-quote{
+           margin-top: 100px;
+           background-color: rgb(211, 211, 211);
+           }
+
+.container-one{
+               display: flex;
+}
+
+
+.row{
+      display: flex;
+}
+
+
+.button2{
+    margin-left: 500px;
+    background-color: #eb600f;
+    padding: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.form-group{
+             margin-top: 30px;}
+
+             .form-group input{
+                width: 400px;
+                height: 40px;}
+
+.form-group select{
+                   width: 400px;
+}
+
+.btn-submit{
+               margin-top: 30px;
+               width: 400px;
+               height: 40px;
+               font-size: 20px;
+               color: #ffffff;
+               background-color: rgb(44, 43, 43);
+}
+
